@@ -1,0 +1,1 @@
+Este es un proyecto de una página con estructura simple para luego incorporar js
