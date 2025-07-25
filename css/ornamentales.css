@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
@@ -168,4 +169,115 @@ a{
     border-radius: 15px;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    border-radius: 300%;
+}
+body{
+    background-color: #d1f4d2;
+    font-family: 'Roboto', sans-serif;
+    
+}
+h2{
+    font-family: 'Chango', cursive;
+    font-size: 4vw;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Chango', cursive;
+    font-size: 3vw;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.item{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+.nombre{
+    font-family: 'Chango', cursive;
+    font-size: 2.5vw;
+    color: #2c3e50;
+    text-align: center;
+}
+.precio{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: #27ae60;
+    text-align: center;
+}
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: #34495e;
+    text-align: center;
+}
+.btn-comprar{
+    background-color: #27ae60;
+    box-shadow:0 2px 4px rgba(0,0,0,0.9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    margin: 10px 0;
+    
+}
+.btn-comprar:hover{
+    background-color: #1d7e47;
+}
+.btn-volver{
+    background-color: #2c3e50;
+    box-shadow:0 2px 4px rgba(0,0,0,0.9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    margin: 10px 0;
+>>>>>>> c8b8185b68cf5d8f1a710c4d6ccc45b8710692d5
 }
